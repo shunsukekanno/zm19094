@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8">
     <title> Web開発の練習１</title>
-    <link rel="stylesheet" href="mystyle.css"> <!-- この行を追加 -->
+    <link rel="stylesheet" href="mystyle.css">
+    <script src="myjs.js"></script> <!-- この行を追加 -->
   </head>
   <body>
     <!--文字の大きさの練習-->
@@ -202,6 +203,18 @@
     <li><a href="https://www.josai.ac.jp/club/ekiden_joshiekiden.html">女子駅伝部</a></li>
     <li><a>クラブ・サークル活動</a></li>
     </ul>
-    </nav> 
+    </nav>
+    <br>
+    <h1>ex06-8:JavaScriptによる変更の練習</h1>
+    <input type="button" value="あいさつ" onclick="sayhello68();">
+    <input type="button" value="太郎" onclick="taro();">
+    <input type="button" value="花子" onclick="hanako();">
+    <p id="who">world</p>
+    <br>
+    <br>
+    <h1>JavaScriptによる変更の練習2</h1>
+    <input type="button" value="電気をつける" onclick="on();">
+    <img id="myImage" src="./image/bulboff.gif" style="width:100px">
+    <input type="button" value="電気を消す" onclick="off();">
   </body>
 </html>
