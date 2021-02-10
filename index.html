@@ -259,7 +259,7 @@ onclick="alert('Hello, Shunsuke!');">
     <input type="button" value="あいさつ" onclick="sayhello68();">
     <input type="button" value="太郎" onclick="taro68();">
     <input type="button" value="花子" onclick="hanako68();">
-    <p id="who68">world</p>
+    <p id="who68">最初はworld</p>
     <br>
 
     <h1>JavaScriptによるページの変更6-9</h1>
@@ -273,7 +273,7 @@ onclick="alert('Hello, Shunsuke!');">
 <img src='./image/josai.png' id="logo" alt="Josai Logo"></div>
 <br>
 
-<h1>タイマーイベントによる実行6-10</h1>
+<h1>タイマーイベントによる実行06-10</h1>
 <form name="timer">
 <input type="button" value="スタート" onclick="startfnc()">
 <br>    
@@ -286,7 +286,7 @@ onclick="alert('Hello, Shunsuke!');">
 </form>   
 <br>
 
-<h1>タイマーイベントによる実行6-11</h1>
+<h1>タイマーイベントによる実行06-11</h1>
 <br>
 <form name="timer1">
 <input type="button" value="スタート" onclick="hyoji1()">
@@ -295,12 +295,43 @@ onclick="alert('Hello, Shunsuke!');">
 </form>
 <br>
 
-<h1>タイマーイベントによる実行6-12</h1>
+<h1>タイマーイベントによる実行06-12</h1>
 <div id="back"> 
 <input type="button" value="変更後3秒でまた戻る" onclick="changeImageAndBack();">
 <img src='./image/josai.png' id="img13" alt="Josai Logo" class="imagechange">
 </div>
 <br>
+
+<h1>テキストの入力の練習07-1</h1>
+   <input type="button" value="あいさつ" onclick="sayhello71();">
+   <p>誰?<input type="text" id="who71"</p>
+
+   <h1>足し算07-3</h1>  
+<p>
+  <input type="text" id="input1"> +  <input type="text" id="input2">
+  <input type="button" value="計算" onclick="add();"> 
+</p>
+
+<h1>ボディマス指数07-4 低体重・普通・肥満、判定込</h1> 
+<p>
+  体重<input type="text" id="1input"> + 身長(ｍ) <input type="text" id="2input"> 
+   <input type="button" value="計算" onclick="add2();"> 
+</p><br>
+<h1>なぞなぞ07-5 あたりのみ</h1>
+<p>目を閉じてないと見られないものはなーに?</p>
+<p>
+   答(漢字1文字で): <input type="text" id="answer">
+    <input type="button" value="解答" onclick="nazo75();"> 
+</p>
+
+<h1>なぞなぞ07-8 あたりとはずれ</h1>
+<p>目を閉じてないと見られないものはなーに?</p>
+<p>
+   答(漢字1文字で): <input type="text" id="answer78">
+    <input type="button" value="解答" onclick="nazo78();">
+
+</p>
+
     <br>
     <br>
   </body>
